@@ -1,0 +1,16 @@
+%= link_to "New Banner", new_banner_path %>
+ <h1><span>Banner Management</span></h1>
+  <div class="row">
+    <div class="column">ID</div>
+    <div class="column">Banner File Name</div>
+    <div class="column">Options</div>
+  </div>
+  <% @banner_images.each_with_index do |index| %>
+    <div class="row">
+      <div class="column"><%= index %></div>
+      
+    </div>
+  <% end %>
+</div>
+
+

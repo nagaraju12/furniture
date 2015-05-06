@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Given name:</strong>
+  <%= @owner.given_name %>
+</p>
+
+<p>
+  <strong>Middle name:</strong>
+  <%= @owner.middle_name %>
+</p>
+
+<%= link_to 'Edit', edit_owner_path(@owner) %> |
+<%= link_to 'Back', owners_path %>
