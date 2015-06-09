@@ -35,4 +35,8 @@ class BannersController < ApplicationController
     @banner_image.destroy
     redirect_to banners_path
   end
+  private
+  def new_params
+    params.require(:banner).permit!
+  end
 end

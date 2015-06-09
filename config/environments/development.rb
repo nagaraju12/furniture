@@ -43,7 +43,7 @@ config.action_mailer.raise_delivery_errors = true
      :port                 => 587,
      :domain               => 'baci.lindsaar.net',
      :user_name            => 'kammaranagaraju@gmail.com',
-     :password             => 'narayanapuram',
+     :password             => 'Nagaraju@2015',
      :authentication       => 'plain',
      :enable_starttls_auto => true,
    }
